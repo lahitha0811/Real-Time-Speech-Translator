@@ -1,12 +1,38 @@
-# React + Vite
+# 🗣️ Real-Time Speech Converter 🌐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple real-time speech application that listens to your voice and speaks it back using the Web Speech API and SpeechSynthesis. Built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎙️ **Speech-to-Text**: Convert voice into text using the Web Speech API
+- 🔊 **Text-to-Speech**: Read the spoken or typed text aloud using SpeechSynthesis
+- 🎛️ Select language
+- 🌙 **Dark mode** and responsive design with Tailwind CSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS, Vite
+- **APIs**: Web Speech API (SpeechRecognition), SpeechSynthesis API
+- **No backend needed** (fully client-side)
+
+## 🧪 How to Run Locally
+
+### Prerequisites
+
+
+- Git
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/lahitha0811/Real-Time-Speech-Translator.git
+cd Real-Time-Speech-Translator/frontend
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
